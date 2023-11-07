@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: hsl(229, 57%, 11%);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+}
+
+.content{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 7rem;
+}
+
+.fylo{
+    background-color:hsl(228, 56%, 26%) ;
+    padding: 20px 100px 20px 20px;
+    border-radius: 5px;
+    border-top-right-radius: 80px;
+}
+
+.logo img{
+    width: 100px;
+    margin: 10px 0;
+}
+
+.icons img{
+  width: 20px;
+  background-color: hsl(229, 57%, 11%);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 5px;
+}
+
+.bgi img{
+    width: 100%;
+    position: absolute;
+   bottom: 0;
+   z-index: -1;
+   
+}
+
+.gb{
+    width: 400px;
+    background-color: hsl(228, 56%, 26%);
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+.gb .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gb .top p{
+    font-size: 14px;
+    color: hsl(233, 6%, 74%);
+    margin-bottom: 20px;
+}
+
+.gb .top p span{
+    color: #fff;
+}
+
+.gb .top .box{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    border-radius: 15px;
+    height: 25px;
+    width: 150px;
+   padding: 20px 0;
+   margin-top: 20px;
+}
+
+.gb .top .box p {
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.gb .top .box p span{
+    font-size: 11px;
+    color: hsl(229, 7%, 55%);
+}
+
+.btn{
+    background-color:hsl(229, 57%, 11%) ;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.gb button{
+    width: 75%;
+    height: 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%) 25%, hsl(335, 100%, 65%) 50% );
+    border: none;
+    position: relative;
+}
+
+button .circle{
+    background-color: #fff;
+    width: 3%;
+    height: 80%;
+    border-radius: 50%;
+    position: absolute;
+    right: 1%;
+    top:10%;
+}
+
+.GB{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 10px;
+}
+.GB p{
+    font-size: 12px;
+}
